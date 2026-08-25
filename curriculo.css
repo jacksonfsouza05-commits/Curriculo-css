@@ -1,0 +1,10 @@
+#titulo{
+    background-image: linear-gradient(to right, #4a6fa5, #5a4b81, #3b2a5a);
+    color: white;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+#titulo a{
+    color: white;
+}
