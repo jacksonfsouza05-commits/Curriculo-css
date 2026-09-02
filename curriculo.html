@@ -3,22 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curriculo css</title>
+    <title>Currículo CSS</title>
     <link rel="stylesheet" href="curriculo.css">
 </head>
 <body>
-    <header id="Titulo">
-        <div id="dados">
-            <h1 id="nome">Jackson F.Souza</h1>
-            <p>rede social: <a href="https://github.com/jacksonfsouza05-commits" target="_blank">www.github.com.br/jacksonfsouza</a></p>
-            <p>idade: 20</p>
-            <p>jacksonfsouza05@gmail.com</p>
-        </div>
 
-        <figure id="foto-perfil">
-            <img src="roblox.jpg" alt="robloxer">
-        </figure>
-    </header>
+    <main class="container">
+
+        <header id="main-header">
+            <div id="dados">
+                <h1>Jackson F. Souza</h1>
+                
+                <address>
+                    <p>Rede social: <a href="https://github.com/jacksonfsouza05-commits" target="_blank">www.github.com.br/jacksonfsouza</a></p>
+                    <p>Idade: 20</p>
+                    <p>E-mail: jacksonfsouza05@gmail.com</p>
+                </address>
+            </div>
+
+            <figure id="foto-perfil">
+                <img src="roblox.jpg" alt="Foto de perfil">
+            </figure>
+        </header>
+
+        <article>
+            <h2>Informações Profissionais</h2>
+
+            <ol>
+                <li>
+                    <h3 class="titulo-formacao">Formações Acadêmicas</h3>
+                    
+                    <section>
+                        <p><strong>1995 - 2000</strong> | <a href="#">Universidade Federal do Espírito Santo (UFES)</a></p>
+                        <p>Ciência da Computação</p>
+                    </section>
+
+                    <section>
+                        <p><strong>1990 a 1993</strong> | <a href="#">Escola Técnica Federal</a></p>
+                        <p>Técnico em Processamento de Dados</p>
+                    </section>
+                </li>
+
+                <li>
+                    <h3 class="titulo-formacao">Formações Complementares</h3>
+                    
+                    <section>
+                        <p><strong>1990 a 2000</strong></p>
+                        <p>Inglês</p>
+                    </section>
+                </li>
+
+                <li>
+                    <h3 class="titulo-formacao">Soft Skill</h3>
+                    
+                    <section>
+                        <p>Empatia</p>
+                        <p>Ética</p>
+                    </section>
+                </li>
+            </ol>
+        </article>
+
+    </main>
 
 </body>
 </html>
